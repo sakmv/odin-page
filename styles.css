@@ -2,9 +2,7 @@ body{
     margin:0;
     padding:0;
     font-family:'Roboto',sans-serif;
-    display: flex;
-    flex-direction: column;
-}
+    }
 /*first slide*/
 .first{
     height:585;
@@ -57,5 +55,124 @@ body{
     font-weight: bolder;
     text-decoration: none;
 } 
+.submit a:hover{
+    color:rgb(207, 207, 207);
+    font-weight: bolder;
+    text-decoration: underline;
+}
 
 /*second slide*/
+h2{
+    text-align: center;
+    color:#1F2937;
+    font-size:36px;
+    font-weight:900;
+}
+.images div{
+  border: 5px solid #3882f6;
+  width: 200px;
+  height: 200px;
+  border-radius:20px;
+  box-sizing: border-box;
+  overflow:hidden;
+}
+.images{
+    display:flex;
+    justify-content: space-around;
+    align-items:start;
+    height:200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.subtext{
+    display:flex;
+    padding:5px 200px;
+    justify-content: space-around;
+    font-size:18px;
+    font-weight:200;
+    align-items: start;
+    height:100px;
+}
+.subtext div p{
+    text-align: center;
+    font-family:'Roboto';
+    color:#3f4246;
+    font-size:15px;
+    font-weight: 400;
+    width:200px;
+}
+.quote{
+    padding:0 200px;
+    margin:120px 0px;
+    height:400;
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    gap:30px;
+}
+.quote em{
+    font-size:36px;
+    text-align: center;
+    font-weight:100;
+}
+.author{
+    display:flex;
+    justify-content: end;
+}
+.author strong{
+    font-size:24px;
+    font-weight:400px;
+}
+.call {
+    background-color: #3882f6;
+    margin: 10px 200px 120px 200px;
+    border-radius:10px;
+    height:150px;
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px 20px;
+    align-items: center;
+}
+.tekt strong {
+    color: #E5E7EB;
+    font-size: 28px;
+    margin: 0;            
+    padding: 0;
+      
+}
+
+.tekt p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 5px 0 0 0;     
+    padding: 0;
+   
+}
+.buton{
+    height:40px;
+    width:150px;
+    border-radius:5px;
+    border:3px solid whitesmoke;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.buton div{
+    font-size: 18px;
+    color:whitesmoke;
+}
+.copy{
+    background-color: #1F2937;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy p{
+    font: size 24px;
+    color:whitesmoke;
+}
